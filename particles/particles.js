@@ -2,7 +2,7 @@ var canvas = document.querySelector('canvas')
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 var ctx = canvas.getContext('2d')
-var colorarray = ['#581845', '#900C3F', '#C70039' , '#900C3F']
+var colorarray = ['#581845', '#900C3F', '#C70039']
 function particles(x,y,dx,dy,radius){
     this.x = mouse.x;
     this.y = mouse.y;
