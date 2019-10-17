@@ -28,6 +28,7 @@ function particles(x,y,dx,dy,radius){
         this.radius-=Math.random();
         if(this.radius >= 0 ){
             this.draw();
+            
         }
         else{
             particle_array.splice(i,1);
